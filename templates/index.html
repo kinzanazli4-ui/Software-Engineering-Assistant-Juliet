@@ -3,16 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Software Engineering Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
 
-    <h1>Software Engineering Assistant</h1>
+    <div class="container">
 
-    <p>Your AI-powered software development assistant.</p>
+        <div class="logo">⚙️</div>
 
-    <button>Get Started</button>
+        <h1>Software Engineering Assistant</h1>
+
+        <p>
+            Your intelligent assistant for software development,
+            technology recommendations and project guidance.
+        </p>
+
+        <a href="#" class="btn">Get Started</a>
+
+        <div class="features">
+
+            <div class="feature">
+                <h3>GitHub</h3>
+                <p>Connect and analyze your GitHub projects.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Technology</h3>
+                <p>Get technology recommendations for your project.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Similarity</h3>
+                <p>Check your project against similar projects.</p>
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
